@@ -1,0 +1,77 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: calibri;
+    color: white;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.468);
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+   color: #0bda0b; 
+   text-align: center;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+
+nav{
+    background-color: #0bda0b;
+    text-align: center;
+    padding: 10px;
+}
+
+.scooter.first{
+    color: white;
+}
+
+.scooter.second{
+    color: white;
+}
+
+.scooter.third{
+    color: white;
+}
+
+div > h2{
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+div > h3{
+    margin: 3px;
+}
+
+.scooter > .status{
+    margin-left: 0px;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.status.gino{
+    background-color: rgb(255, 200, 0);
+    width: 32%;
+}
+
+.status.mike{
+    background-color: #08ac08;
+    width: 55%;
+}
+
+.status.fede{
+    background-color: rgb(71, 9, 7);
+    width: 12%;
+}
